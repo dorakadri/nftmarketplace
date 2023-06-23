@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Navbar from './components/navbar'
 import styles from './style'
 import Hero from './components/Hero'
@@ -6,7 +6,7 @@ import Stats from './components/Stats'
 import Clients from './components/Clients'
 import Features from './components/Features'
 import Top from './components/Top'
-import Categories from './components/Categories'
+
 import CTA from './components/CTA'
 import Footer from './components/Footer'
 import LastDrops from './components/Categories'
