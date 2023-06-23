@@ -4,7 +4,7 @@ import styles from "../style";
 
 const Carrousel = () => {
   return (
-    <div className="xs:mb-19 md:mb-11" >
+    <div className="  xs:min-h-[0]  min-h-[10vh] " >
       <div className="md:w-[200%] w-[300%] flex items-center space-x-5 justify-around absolute   animate">
         {top.map((user) => (
           <div
