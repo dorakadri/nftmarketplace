@@ -117,20 +117,20 @@ export const Featuresapp =[
     id: "wallet",
     Icon:  <SlWallet className="neon-purple-icon" />,
     title: "Connect wallet",
-    content: "Looking for the latest releases? Or are retro classics more your thing? At Kyobi,. ",
+    content: "Connect your wallet to the exciting world of NFTs and unlock a realm of possibilities. With just a few clicks ",
   },
   {
     id: "marketplace",
     Icon:  <SlBag className="neon-purple-icon" />,
     
     title: "NFTS marketplace",
-    content: "Looking for the latest releases? Or are retro classics more your thing? At Kyobi,. ",
+    content: "Explore our NFT marketplace and dive into a world of unique and captivating digital art ",
   },
   {
     id: "collect",
     Icon:  <SlPuzzle className="neon-purple-icon" />,
     title: "Collect nfts",
-    content: "Looking for the latest releases? Or are retro classics more your thing? At Kyobi,. ",
+    content: "Uncover hidden gems, limited editions, and exclusive releases, and make them yours",
   },
 ]
 
