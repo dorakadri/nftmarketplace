@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         primary: "#00040f",
         secondary: "#9A06EF",
+        gradient:"linear-gradient(to right,  #a805f4,#0CC0DF)",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
       },

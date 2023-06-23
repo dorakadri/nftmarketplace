@@ -19,16 +19,7 @@
 }
 
 .text-gradient {
-  background: radial-gradient(
-    64.18% 64.18% at 71.16% 35.69%,
-    
-    #c7a4ff 0.89%,    
-    #9e7eff 17.23%,   
-    #7a55ff 42.04%,    
-    #5d38ff 55.12%,    
-    #441aff 71.54%,    
-    #2300ff 100%
-  );
+  background: linear-gradient(to right,  #a805f4,#0CC0DF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -36,15 +27,7 @@
 }
 
 .bg-purple-gradient {
-  background: linear-gradient(
-    157.81deg,
-    #c7a4ff -43.27%, 
-    #9e7eff -21.24%, 
-    #7a55ff 12.19%, 
-    #5d38ff 29.82%,
-    #441aff 51.94%, 
-    #2300ff 90.29% 
-  );
+  background: linear-gradient(to right,  #a805f4,#0CC0DF);
 }
 
 .bg-black-gradient {
@@ -135,6 +118,11 @@
   background: linear-gradient(180deg,rgba(188, 165, 255, 0) 0%, #a805f4 100%);
   filter: blur(123px);
 }
+.border-gradient{
+
+ 
+  background: linear-gradient(to right,  #a805f4,#0CC0DF);
+}
 
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
@@ -147,3 +135,77 @@
 
 
 }
+.outline-gradient {
+  border: 3px solid;
+  border-image: linear-gradient(to right,  #a805f4, #0CC0DF) 1;
+
+}
+.outline-gradient2 {
+  border: 3px solid ;
+  border-radius: 20px;
+  border-image: linear-gradient(to right,  #a805f4, #0CC0DF) 1;
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    --tw-shadow-color: rgb(6 182 212 / 0.5);
+    --tw-shadow: var(--tw-shadow-colored);
+}
+
+.neon-purple-icon {
+  width: 50px;
+  height: 50px;
+  color: #8a05be; /* Set the base color */
+  
+}
+
+
+
+.cutcorner {
+  width: 320px; 
+  height: 487px;
+  background: linear-gradient(to right,  #a805f4, #0CC0DF) ;
+  clip-path: polygon(14% 0, 100% 0, 100% 91%, 89% 100%, 0 100%, 0 9%);
+}
+
+
+
+.cutimage {
+  width: calc(100% - 7px); 
+  height: calc(100% - 7px);
+  position: relative;
+  background: #000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  clip-path: polygon(
+    14% 0,
+     100% 0,
+      100% 91%,
+       89% 100%,
+        0 100%,
+         0 9%);
+}
+
+.glass{
+    clip-path: polygon(
+    14% 0,
+     100% 0,
+      100% 91%,
+       89% 100%,
+        0 100%,
+         0 0);
+
+}
+
+ @keyframes scroll {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+.animate {
+  animation: scroll 15s linear infinite;
+} 

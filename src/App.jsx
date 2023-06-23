@@ -9,6 +9,7 @@ import Top from './components/Top'
 import Categories from './components/Categories'
 import CTA from './components/CTA'
 import Footer from './components/Footer'
+import LastDrops from './components/Categories'
 
 const App = () =>  (
   <div className='bg-primary w-full overflow-hidden'>
@@ -27,12 +28,16 @@ const App = () =>  (
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
       <Stats/>
-      <Features/>
       <Clients/>
-      
-      <Categories/>
-      <Top/> 
+      <Features/>
+      <LastDrops/>
+      <Top/>
       <CTA/>
+     
+      
+      
+       
+
       <Footer/>
 
       </div>
